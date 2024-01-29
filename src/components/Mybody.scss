@@ -1,0 +1,55 @@
+.home{
+    margin: auto;
+    width: 100%;
+    color:red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(185, 255, 237, 0.897);
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        mix-blend-mode: soft-light;
+    }
+    video{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        object-fit: cover;
+    }
+    .homeContent{
+          width: 100%;
+          height: max-content;
+          padding: 8rem 1.5rem 3rem;
+          flex-direction: column;
+          display: flex;
+          row-gap: 3rem;
+          align-items: stretch;
+          justify-content: center;
+          margin: auto;
+          color: white;
+          z-index: 100;
+        .textDiv{
+            padding: 2rem;
+            .smalltext{
+                font-size: 13px ;
+                text-transform: uppercase;
+            }
+            .homeTitle{
+                 position: relative;
+                 font-size: 1.8rem;
+            }
+
+
+           }
+    }
+
+
+}

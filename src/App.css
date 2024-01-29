@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  :root{
+    --PrimaryColor:rgb(0, 117, 82);
+    --SecondaryColor:rgb(0, 230, 161);
+    --GradientColor:linear-Gradient(to right,rgb(0, 230, 161),rgb(0, 117, 82));
+    --Gradient2Color:linear-Gradient(to right,rgb(0, 117, 82),rgb(0, 230, 161));
+    --WhiteColor:white;
+    --BlackColor:black;
+    --TextColor:rgb(77, 77, 77);
+    --TextGray: gray;
+    --WhiteColorDim: rgb(248, 248, 248);
+    --CardbgColor:rgb(214, 255, 214);
+    --BodyColor:rgb(255, 255, 255);
+    
+  }
+
+
+
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+
+
+
+
+
+  .section{
+    padding: 4rem 0 2rem;
+  }
+
+  .container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .icon{
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .grid{
+    display:grid ;
+    align-items: center;
+  }
+
+  .btn{
+    padding: .6rem 1.5rem;
+    background: var(--GradientColor);
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    transition-duration: 5s;
+    
+    & a{
+      color:var(--WhiteColor);
+      font-weight: 500;
+    }
+    &:hover{
+      background: var(--Gradient2Color);
+      color: red;
+    }
+    
+  }
+
+
+  img,video{
+     
+    width: 100%;
+    height: autio;
+
+  }
+
+  input{
+    font-size: 100%;
+  }
+
+  body{
+    background: var(--BodyColor);
+  }
