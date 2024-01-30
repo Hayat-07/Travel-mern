@@ -90,6 +90,17 @@
 
   input{
     font-size: 100%;
+    border: none;
+    padding:.3rem;
+    text-align: center;
+    width: 60vw;
+    max-width: 30rem;
+    outline: none;
+    border-radius:5px ;
+    &:hover{
+     cursor: pointer;
+    }
+ 
   }
 
   body{

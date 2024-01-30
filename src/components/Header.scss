@@ -14,7 +14,8 @@
   }
 
   .header{
-    position:fixed; 
+    position:sticky; 
+    top: 0;
     justify-content: space-between;
     background: var(--WhiteColorDim);
     width: 100%;
