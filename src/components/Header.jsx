@@ -49,8 +49,8 @@ function Header() {
             </ul>
 
 
-            <div  onClick={()=>{setNavStatus("navBar")}} className="closeNavbar">
-            <IoCloseOutline  className="icon"/>
+            <div  onClick={()=>{setNavStatus("navBar")}} className="closeNavbar closeNavIcon ">
+            <IoCloseOutline  className="icon "/>
             </div>
           </div>
 

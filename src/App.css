@@ -84,7 +84,7 @@
   img,video{
      
     width: 100%;
-    height: autio;
+    height: auto;
 
   }
 
@@ -104,5 +104,9 @@
   }
 
   body{
+
     background: var(--BodyColor);
+  }
+  .body{
+    position: relative;
   }

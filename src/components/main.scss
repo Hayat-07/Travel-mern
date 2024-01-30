@@ -1,0 +1,58 @@
+.main{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    .sectionTitle{
+     color: rgb(0, 141, 134);
+     margin-bottom: 2vh;
+    }
+    .sectContent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        .cardMy{
+            padding: 1vw;
+            color:gray;
+            border: 1px solid rgb(240, 240, 240);
+            border-radius:1.5rem;
+            height: 25rem;
+            min-width: 270px;
+            width: 23vw;
+            // background-color: rgb(222, 255, 249);
+            grid-template-rows: 1fr 1fr 4fr;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+        }
+    }
+    @media screen and (max-width:1024px) {
+        .sectContent{
+            grid-template-columns: 1fr 1fr 1fr ;
+            .cardMy{
+                width: 30vw;
+                margin: auto;
+            }
+        }
+    }
+    @media  (max-width:768px) {
+        .sectContent{
+            grid-template-columns: 1fr 1fr ;
+            .cardMy{
+                width: 45vw;
+                margin: auto;
+            }
+        }
+    }
+    @media (max-width:425px) {
+        .sectContent{
+            grid-template-columns: 1fr ;
+            .cardMy{
+                width: 80vw;
+                margin: auto;
+            }
+          
+        }
+    }
+}

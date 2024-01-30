@@ -1,10 +1,22 @@
-
 import "./Footer.scss";
+import v2 from "../assets/v2.mp4";
 
 function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <section>
+      <div className="footerVideo">
+        <video
+          src={v2}
+          type="video/mp4"
+          autoPlay
+          muted
+          loop
+        ></video>
+
+     
+      </div>
+    </section>
+  );
 }
 
-export default Footer
+export default Footer;
