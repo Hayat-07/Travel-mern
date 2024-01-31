@@ -10,10 +10,10 @@
   }
 
   :root{
-    --PrimaryColor:rgb(0, 117, 82);
+    --PrimaryColor:rgb(0, 117, 117);
     --SecondaryColor:rgb(0, 230, 161);
-    --GradientColor:linear-Gradient(to right,rgb(0, 230, 161),rgb(0, 117, 82));
-    --Gradient2Color:linear-Gradient(to right,rgb(0, 117, 82),rgb(0, 230, 161));
+    --GradientColor:linear-Gradient(to right,rgb(0, 230, 230),rgb(0, 117, 117));
+    --Gradient2Color:linear-Gradient(to right,rgb(0, 117, 117),rgb(0, 240, 228));
     --WhiteColor:white;
     --BlackColor:black;
     --TextColor:rgb(77, 77, 77);

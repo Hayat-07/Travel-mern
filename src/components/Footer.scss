@@ -1,0 +1,23 @@
+.footerVideo{
+  
+    position: relative;
+    .footerContent{
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        background-color: rgba(0, 129, 129, 0.521);
+        padding: 1rem;
+        width: 100vw;
+        text-align: center;
+        height: 40%;
+        
+         
+        h1{
+            font-size: xx-large;
+    color: rgb(185, 255, 246);
+        }
+    }
+}

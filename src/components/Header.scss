@@ -1,8 +1,8 @@
 :root{
-    --PrimaryColor:rgb(0, 117, 82);
+    --PrimaryColor:rgb(0, 117, 117);
     --SecondaryColor:rgb(0, 230, 161);
-    --GradientColor:linear-Gradient(to right,rgb(0, 230, 161),rgb(0, 117, 82));
-    --Gradient2Color:linear-Gradient(to right,rgb(0, 117, 82),rgb(0, 230, 161));
+    --GradientColor:linear-Gradient(to right,rgb(0, 230, 230),rgb(0, 117, 117));
+    --Gradient2Color:linear-Gradient(to right,rgb(0, 117, 117),rgb(0, 240, 228));
     --WhiteColor:white;
     --BlackColor:black;
     --TextColor:rgb(77, 77, 77);
@@ -12,6 +12,7 @@
     --BodyColor:rgb(255, 255, 255);
     
   }
+
 
   .header{
     position:sticky; 
@@ -38,7 +39,9 @@
          
     }
     .navBar{
-        border: 1px solid gray;
+        border: 1px solid rgb(235, 235, 235);
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
         width: 60vw;
         
         .navList{
@@ -47,6 +50,17 @@
             .navItem{
                 .navLink{
                     color: gray;
+                    font-weight: 700;
+                    padding: 3px;
+                    &:hover{
+                        color: rgb(0, 146, 146);
+                        border-bottom: 1px solid black;
+                        scale: 120%;
+                        font-weight: 700;
+                    }
+                    &:active{
+                        scale: 70%;
+                    }
                 }
             }
         }
