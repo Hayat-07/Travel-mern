@@ -67,9 +67,15 @@
         .closeNavIcon{
           display: none;
         }
+        
     }
-
+    .toggleNavbar{
+        display: none;
+    }
     @media screen and (max-width:768px){
+        .toggleNavbar{
+            display: inline;
+        }
         .navBar{
             position:absolute;
             background: var(--WhiteColorDim);
