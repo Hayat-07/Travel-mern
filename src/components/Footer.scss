@@ -1,23 +1,143 @@
-.footerVideo{
+
+
+.footer{
+    .footerVideo{
+    
+        position: relative;
+        .footerContent{
+            padding-top: 10rem;
+            padding-left: 5%;
+            padding-right: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            background-color: rgba(202, 233, 252, 0.788);
+            padding: 1rem;
+            width: 100vw;
+            
+            height: max-content;
+            color: rgb(0, 0, 0);
+            
+            .topDiv{
+               
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                text-align: center;
+                width: 80%;
+    
+                 input{
+                    
+                    margin-top: 1rem;
+                   width: 20rem;
+                    padding: .6rem 1.5rem;
+                    max-width: 20rem;
+                    border-radius: 1.5rem;
+                 }
+               
+                 button{
+                    margin-top: 1rem;
+                    max-width: 20rem;
+                    width: 20rem;
+                    color: white;
+                    .icon{
+                        font-size: 1rem;
+                    }
+                 }
+            }
+            .bottomDiv {
+               
+                margin-top: 2rem;
+                width: 80%;
+                display: grid;
+                grid-template-columns: 5fr 2fr 5fr ;
+                border-top: 1px solid rgb(0, 98, 116);
+                text-align: center;
+                justify-content: center;
+                text-align: center;
+                
+                .footerTitle{
+                    text-align: center;
+                    
+                }
+                h3{
+                   width: 20rem;
+                   font-size: small;
+                    text-align: center;
+                }
+                .iconsDiv{
+                    text-align: center;
+                  .icon{
+                    &:hover{
+                        cursor: pointer;
+                        color: white;
+                    }
+                  }
+                }
+                .serviceLinks{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: start;
+                    text-align: center;
+                    li{
+                        &:hover{
+                            cursor: pointer;
+                            color: white;
+                        }
+                    }
+                    
+                }
+            }
+        }
+            
+    }
+}
+
+@media  (max-width:600px) {
+   .footer{
   
-    position: relative;
-    .footerContent{
-        position: absolute;
-        margin: auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .footerVideo{
+        .footerContent{
+            position: absolute;
+            text-align: center;
+            height:max-content;
+            .topDiv{
+    
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 95%;
+                h1{
+                              color: rgb(185, 255, 246);
+                }
         
-        background-color: rgba(0, 129, 129, 0.521);
-        padding: 1rem;
-        width: 100vw;
-        text-align: center;
-        height: 40%;
-        
-         
-        h1{
-            font-size: xx-large;
-    color: rgb(185, 255, 246);
+            }
+            .bottomDiv{
+              
+              
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items:center ;
+                align-items: center;
+               text-align: center;
+                // border: 1px solid rgb(255, 145, 0);
+                width: 95%;
+               
+               
+               
+            }
+    
         }
     }
 }
+   } 
+    

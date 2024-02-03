@@ -68,7 +68,7 @@
     border-radius: 3rem;
     border: none;
     cursor: pointer;
-    transition-duration: 5s;
+    
     
     & a{
       color:var(--WhiteColor);

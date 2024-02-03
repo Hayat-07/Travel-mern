@@ -70,19 +70,41 @@
 
 
     .cardDiv{
+        flex-direction: column;
+        width: 85vw;
         border-radius: 1rem;
-        padding: 1rem 2rem;
+        padding: 2rem 2rem;
         background-color: rgba(255, 255, 255, 0.418);
-        .nameInput{
-            .name{
-                span{
-                    position: absolute;
-                    z-index: 10;
-                    margin-right: 50%;
-                    
+         align-items: space-around;
+         .inputesDiv{
+           width: 100%;
+           justify-content: space-evenly;
+             .nameInput{
+                input{
+                    width: 25vw;
                 }
-            }
-        }
+                
+             }
+             .dateInput{
+                input{
+                    width: 25vw;
+                }
+             }
+             .priceInput{
+                .price{
+                    background-color: white;
+                    border-radius: 5px;
+                    input{
+                        background-color: white;
+                        width: 20vw;
+                        border: 1px solid rgb(189, 0, 0);
+                    }
+                }
+                
+             }
+
+         }
+        
 
         .moreFilter{
             justify-content: center;
@@ -138,4 +160,47 @@
     }
 
 
+}
+
+@media (max-width:425px) {
+    .cardDiv{
+        .inputesDiv{
+            flex-direction: column;  
+            justify-content: stretch;
+            align-items: stretch;
+          
+
+
+            .nameInput{
+               
+                .name{
+                    input{
+                        width: 100%;
+                    }
+                }
+                
+                
+             }
+             .dateInput{
+                .date{
+                    input{
+                        width: 100%;
+                    }
+                }
+             }
+             .priceInput{
+                width: 100%;
+                .price{
+                    background-color: white;
+                    border-radius: 5px;
+                    input{
+                        background-color: white;
+                        width: 100%;
+                        border: 1px solid rgb(189, 0, 0);
+                    }
+                }
+             }
+        }
+    }
+    
 }
