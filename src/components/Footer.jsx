@@ -1,5 +1,5 @@
 import "./Footer.scss";
-import v2 from "../assets/v2.mp4";
+
 import { FiSend } from "react-icons/fi";
 import { FaAngleRight } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
@@ -11,7 +11,7 @@ function Footer() {
   return (
     <section className="footer">
       <div className="footerVideo">
-        <video src={v2} type="video/mp4" autoPlay muted loop></video>
+       
 
         <div className="footerContent">
           <div className="topDiv ">

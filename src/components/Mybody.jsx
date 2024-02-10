@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./Mybody.scss";
-import video from "../assets//v1.mp4";
+import video from "../assets//v1.webm";
 import { IoLocationOutline } from "react-icons/io5";
 import { TbFilterSearch } from "react-icons/tb";
 import { FaFacebook } from "react-icons/fa";
@@ -18,7 +18,7 @@ function Mybody() {
   return (
     <section className="home">
       <div className="overlay"></div>
-      <video src={video} muted autoPlay loop type="video/mp4"></video>
+      <video src={video} muted autoPlay loop type="video/WEBM"></video>
 
       <div className="homeContent container">
         <div className="textDiv">
